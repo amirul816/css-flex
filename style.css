@@ -1,0 +1,93 @@
+
+
+body{
+    background:rgb(244, 6, 6);
+    box-sizing: border-box;
+    
+}
+.main_area{
+    margin:20px;
+    padding:10px;
+    background: rgb(228, 228, 76);
+    
+   
+}
+.main_area h2{
+    margin:20px;
+    padding:10px;
+    color:rgb(243, 14, 144);
+}
+.main_area .title{
+   background:rgb(40, 246, 57);
+   text-align: center;
+}
+.main{
+    display: flex;
+    background-color: aqua;
+ 
+    /* flex-wrap:wrap; */
+    /* flex-flow:wrap; */
+    /* flex-flow: row-reverse wrap-reverse;
+    flex-flow: row wrap; */
+    /* justify-content:; */
+    width:100%;
+    /* justify-content:space-around;
+    justify-content:center;
+    justify-content: start;
+    justify-content: end;
+
+    justify-content:last baseline; */
+   /* flex-direction:column; */
+   /* flex-wrap: wrap; */
+   /* flex-wrap: wrap-reverse; */ 
+   /* flex-flow: row-reverse wrap-reverse;
+   flex-flow: row-reverse; */
+   justify-content: space-evenly;
+}
+.child{
+
+    /* margin: auto; */
+    background: rgb(16, 217, 60);
+    text-align: center;
+    width: 15%;
+    /* padding: 15px;
+    margin:5px;  */
+    padding-bottom: 15px;
+   
+    margin:5px;
+    /* flex-basis:30%; */
+     
+}
+.child a{
+    background: orange;
+    padding: 7px;
+}
+h3{
+    color:rgb(254, 252, 252);
+}
+.extra{
+    display: ;
+background-color: blueviolet;
+  
+    padding:10px;
+    /* align-items: center; */
+   align-items:;
+    height: 200px;
+    
+}
+.extra .child{
+height: 50px;
+}
+
+.center{
+    display: flex;
+    height: 400px;
+    background-color: #ebb2b2;
+    align-items: center;
+    justify-content: center;
+
+}
+.center .cld{
+    width: 150px;
+    background-color: aqua;
+}
